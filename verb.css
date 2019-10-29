@@ -1,0 +1,134 @@
+body{
+background-color: blue;
+}
+.container {
+}
+
+.animation{
+	animation-name: slide;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes slide {
+	from {width: 20px;}
+	to {width: 200px;}
+}
+.canimation{
+	animation-name: stretch;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes stretch {
+	from {height: 100px;}
+	to {height: 550px;}
+}
+.banimation{
+	animation-name: jump ;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes jump {
+	from {top: 420px;}
+	to {top: 0px;}
+}
+  #dot{
+  position: absolute;
+  left: 30px;
+  top: 200px;
+  height: 100px;
+  width: 100px;
+  border: solid black 1pt;
+}
+#dot:hover {
+	top: 0px;
+	background-color: black;
+}
+
+
+  .stem{
+    position: absolute;
+    left: 30px;
+    top: 350px;
+    height: 400px;
+    width: 100px;
+    border: solid black 1pt;
+  }
+.leftn{
+
+  position: absolute;
+  left: 180px;
+  top:200px;
+  height: 550px;
+  width: 100px;
+  border: solid black 1pt;
+}
+#middlen{
+  position: absolute;
+	width: 200px;
+    height: 100px;
+	left:285px;
+  top: 200px;
+  border: solid black 1pt;
+}
+
+.rightn{
+
+  position: absolute;
+  left: 490px;
+  top:200px;
+  height: 550px;
+  width: 100px;
+  border: solid black 1pt;
+}
+
+    #topc{
+      position: absolute;
+      left:640px;
+      top:200px;
+      height:100px;
+      width:300px;
+      border: solid black 1pt;
+    }
+    .backc{
+      position: absolute;
+      left:640px;
+      top:305px;
+      height: 340px;
+      width: 100px;
+      border: solid black 1pt;
+    }
+    .bottomc{
+      position: absolute;
+      left: 640px;
+      top: 650px;
+      height:100px;
+      width: 300px;
+      border: solid black 1pt;
+    }
+      .lefth{
+        position: absolute;
+        left: 990px;
+        top: 200px;
+        height: 550px;
+        width:100px;
+        border: solid black 1pt;
+      }
+      #middleh{
+        position: absolute;
+        left: 1095px;
+        top:425px;
+        height: 100px;
+        width: 200px;
+        border: solid black 1pt;
+      }
+      .righth{
+        position: absolute;
+        left:1300px;
+        top: 200px;
+        height: 550px;
+        width: 100px;
+        border: solid black 1pt;
+      }
